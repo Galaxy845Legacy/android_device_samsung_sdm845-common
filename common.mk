@@ -62,6 +62,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libvulkan
 
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service \
