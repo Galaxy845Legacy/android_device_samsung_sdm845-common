@@ -2,11 +2,6 @@
 product/lib64/com.qualcomm.qti.ant@1.0.so
 product/lib/com.qualcomm.qti.ant@1.0.so
 
-# Audio
-lib/hw/audio.playback_record.default.so
-lib/hw/audio.tms.default.so
-lib/libsecaudiocoreutils.so
-
 # Bluetooth - APT-X
 lib64/libaptX_encoder.so
 
