@@ -129,9 +129,5 @@ PRODUCT_PACKAGES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
-# Property overrides
--include $(LOCAL_PATH)/product_prop.mk
--include $(LOCAL_PATH)/system_prop.mk
-
 # Call proprietary blob setup
 $(call inherit-product, vendor/samsung/sdm845-common/sdm845-common-vendor.mk)
