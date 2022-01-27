@@ -69,7 +69,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    android.hardware.camera.provider@2.5-service
 
 # NFC
 PRODUCT_PACKAGES += \
