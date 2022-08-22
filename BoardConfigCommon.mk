@@ -11,9 +11,6 @@ COMMON_PATH := device/samsung/sdm845-common
 # Include
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
-
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm845
 
