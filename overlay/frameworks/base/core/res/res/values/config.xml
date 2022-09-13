@@ -257,9 +257,6 @@
     <!-- Our modem doesn't support this query yet -->
     <string name="config_radio_access_family">GSM|WCDMA|LTE</string>
 
-    <!-- Boolean indicating if current platform supports BLE peripheral mode -->
-    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
-
     <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
     <bool name="config_enableBurnInProtection">true</bool>
 
