@@ -15,3 +15,6 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Charger
 ro.charger.enable_suspend=true
+
+# OEM Unlock visibility
+ro.oem_unlock_supported=0
